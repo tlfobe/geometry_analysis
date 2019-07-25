@@ -31,19 +31,6 @@ matrix:
     - os: linux
       language: generic
       env: PYTHON_VER=3.
-      
-    - os: windows
-      language: generic  # No need to set Python version since its conda
-      env: PYTHON_VER=3.6
-    - os: windows
-      language: generic
-      env: PYTHON_VER=3.7
-    - os: windows
-      language: generic  # No need to set Python version since its conda
-      env: PYTHON_VER=3.5
-    - os: windows
-      language: generic
-      env: PYTHON_VER=3.4
 
 
 before_install:
